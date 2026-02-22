@@ -69,7 +69,7 @@ class ThreatDetector:
         # Calculate risk score based on activity patterns
         risk_score = self._calculate_risk_score(agent_id, activity)
         
-        if risk_score > 0.7:  # High risk threshold
+        if risk_score >= 0.7:  # High risk threshold
             return ThreatEvent(
                 agent_id=agent_id,
                 threat_type="behavioral_anomaly",
@@ -89,7 +89,7 @@ class ThreatDetector:
         # Simple heuristic for demo
         risk = 0.0
         if activity.get("unusual_api_calls", 0) > 10:
-            risk += 0.3
+            risk += 0.4
         if activity.get("data_access_spike", False):
             risk += 0.4
         if activity.get("privilege_escalation", False):

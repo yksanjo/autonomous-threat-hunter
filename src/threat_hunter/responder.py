@@ -7,6 +7,8 @@ Automated response system that takes action to contain and remediate threats.
 import logging
 from typing import Dict, List, Optional
 from enum import Enum
+from dataclasses import dataclass
+from datetime import datetime
 
 from .detector import ThreatEvent
 from .investigator import InvestigationReport
