@@ -1,5 +1,12 @@
 # autonomous-threat-hunter
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/autonomous-threat-hunter/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/autonomous-threat-hunter/actions)
+![License](https://img.shields.io/github/license/yksanjo/autonomous-threat-hunter)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/autonomous-threat-hunter)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/autonomous-threat-hunter)
+
 ## Detailed Description
 
 autonomous-threat-hunter is maintained as an industry-grade software project with production-ready engineering practices.  
