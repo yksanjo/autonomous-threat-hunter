@@ -15,6 +15,7 @@ This directory contains UI/UX screenshots and mockups for Autonomous Threat-Hunt
 See `docs/mockups/` for detailed mockup specifications.
 
 ## Color Palette
+
 - Primary: #0066FF (Blue)
 - Success: #00C853 (Green)
 - Warning: #FFB300 (Yellow)
@@ -23,5 +24,6 @@ See `docs/mockups/` for detailed mockup specifications.
 - Text: #FFFFFF (White)
 
 ## Tools
+
 - Figma recommended for mockups
 - Export at 2x resolution for retina displays
